@@ -15,6 +15,7 @@ It contains code examples, small exercises, and notes from my learning process.
 ## Progress
 ### PHP Fundamentals
 - Day 1: Environment setup, php tag, variables, conditional and boleans
+- Day 2: Array
 
 
 ### Laravel
