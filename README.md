@@ -17,6 +17,7 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 1: Environment setup, php tag, variables, conditional and boleans
 - Day 2: Array
 - Day 3: Indexed arrays and associative arrays
+- Day 4: Function and Filter
 
 
 ### Laravel
