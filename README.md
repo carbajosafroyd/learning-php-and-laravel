@@ -19,6 +19,7 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 3: Indexed arrays and associative arrays
 - Day 4: Function and Filter
 - Day 5: Lambda Functions & array_filter
+- Day 6: Separate logic from view/template files
 
 
 
