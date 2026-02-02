@@ -29,9 +29,9 @@
                     </button>
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
-                    <a href="index.php" class="text-sm/6 font-semibold text-white" style="border-bottom: 2px solid #6366f1;">Home</a>
+                    <a href="index.php" class="text-sm/6 font-semibold text-white">Home</a>
                     <a href="about.php" class="text-sm/6 font-semibold text-white">About</a>
-                    <a href="contact.php" class="text-sm/6 font-semibold text-white">Contact</a>
+                    <a href="contact.php" class="text-sm/6 font-semibold text-white" style="border-bottom: 2px solid #6366f1;">Contact</a>
 
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Data to enrich your online business</h1>
+                    <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Contac us now!</h1>
                     <p class="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Get started</a>

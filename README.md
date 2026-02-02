@@ -13,6 +13,8 @@ It contains code examples, small exercises, and notes from my learning process.
 - Laravel From Scratch (Laracasts)
 
 ## Progress
+
+## PHP for Beginners
 ### PHP Fundamentals
 - Day 1: Environment setup, php tag, variables, conditional and boleans
 - Day 2: Array
@@ -20,6 +22,9 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 4: Function and Filter
 - Day 5: Lambda Functions & array_filter
 - Day 6: Separate logic from view/template files
+
+### Dynamic Web Application
+- Day 7: Page link
 
 
 
