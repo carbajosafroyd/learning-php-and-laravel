@@ -24,7 +24,7 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 6: Separate logic from view/template files
 
 ### Dynamic Web Application
-- Day 7: Page link
+- Day 7: Page link, PHP partials
 
 
 
