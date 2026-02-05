@@ -1,4 +1,10 @@
-<?php require_once '../index.php'?>
+
+<?php
+function isCurrentPage($path) {
+    return $_SERVER['REQUEST_URI'] === $path ? 'border-b-2 border-indigo-500' : '';
+}
+?>
+
 <header class="absolute inset-x-0 top-0 z-50">
     <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
         <div class="flex lg:flex-1">
@@ -16,10 +22,9 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <!-- // <?= ($currentPage ?? '') === 'home' ? 'style="border-bottom: 2px solid #6366f1;"' : '' ?> -->
-            <a href="/php-for-beginners/dynamic-web-applications/php-partials/index.php" class="text-sm/6 font-semibold text-white">Home</a>
-            <a href="/php-for-beginners/dynamic-web-applications/php-partials/about.php" class="text-sm/6 font-semibold text-white">About</a>
-            <a href="/php-for-beginners/dynamic-web-applications/php-partials/contact.php" class="text-sm/6 font-semibold text-white">Contact</a>
+            <a href="/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/index.php" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/index.php') ?>">Home</a>
+            <a href="/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/about.php" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/about.php') ?>">About</a>
+            <a href="/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/contact.php" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/contact.php') ?>">Contact</a>
 
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -45,10 +50,9 @@
                     <div class="mt-6 flow-root">
                         <div class="-my-6 divide-y divide-white/10">
                             <div class="space-y-2 py-6">
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Product</a>
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Features</a>
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Marketplace</a>
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Company</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/index.php" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/index.php') ?>">Home</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/about.php" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/about.php') ?>">About</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/contact.php" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/superglobals-and-currentpage/contact.php') ?>">Contact</a>
                             </div>
                             <div class="py-6">
                                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">Log in</a>
