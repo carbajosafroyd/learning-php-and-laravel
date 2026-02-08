@@ -1,20 +1,16 @@
 <?php
 
-
-
 require 'functions.php';
+require 'Router.php';
 
-$uri = $_SERVER['REQUEST_URI'];
+// Define base path for this project
+define('BASE_PATH', '/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router');
 
+$router = new Router();
 
+require 'routes.php';
 
-if ($uri === '/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/') {
-    require 'controllers/index.php';
-} elseif ($uri === '/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/about') {
-    require 'controllers/about.php';
-} elseif ($uri === '/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/contact') {
-    require 'controllers/contact.php';
-} else {
-    http_response_code(404);
-    echo 'Page not found';
-}
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+$method = $_SERVER['REQUEST_METHOD'];
+
+$router->route($uri, $method);
