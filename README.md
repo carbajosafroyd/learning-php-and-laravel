@@ -26,7 +26,7 @@ It contains code examples, small exercises, and notes from my learning process.
 ### Dynamic Web Application
 - Day 7: Page link, PHP partials
 - Day 8: Super Global, Current Page, Ternary Operation
-
+- Day 9: sorry
 
 
 ### Laravel
