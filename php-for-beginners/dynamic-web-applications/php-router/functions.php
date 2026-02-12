@@ -1,6 +1,16 @@
 <?php
 
-function isCurrentPage($path) {
-    $currentPath = parse_url($_SERVER['REQUEST_URI'])['path'];
-    return $currentPath === $path ? 'border-b-2 border-indigo-500' : '';
+function dd($value)
+{
+    echo "<pre>";
+    var_dump($value);
+    echo "</pre>";
+    die();
+}
+
+function abort($code = 404)
+{
+    http_response_code($code);
+    require "views/{$code}.php";
+    die();
 }

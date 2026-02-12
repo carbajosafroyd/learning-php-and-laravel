@@ -1,4 +1,10 @@
 
+<?php
+function isCurrentPage($path) {
+    return $_SERVER['REQUEST_URI'] === $path ? 'border-b-2 border-indigo-500' : '';
+}
+?>
+
 <header class="absolute inset-x-0 top-0 z-50">
     <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
         <div class="flex lg:flex-1">
@@ -16,9 +22,9 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/') ?>">Home</a>
-            <a href="/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/about" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/about') ?>">About</a>
-            <a href="/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/contact" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/contact') ?>">Contact</a>
+            <a href="/php-for-beginners/dynamic-web-applications/php-router/" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/') ?>">Home</a>
+            <a href="/php-for-beginners/dynamic-web-applications/php-router/about" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/about') ?>">About</a>
+            <a href="/php-for-beginners/dynamic-web-applications/php-router/contact" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/contact') ?>">Contact</a>
 
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -44,9 +50,9 @@
                     <div class="mt-6 flow-root">
                         <div class="-my-6 divide-y divide-white/10">
                             <div class="space-y-2 py-6">
-                                <a href="/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/') ?>">Home</a>
-                                <a href="/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/about') ?>">About</a>
-                                <a href="/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/learning-php-and-laravel/php-for-beginners/dynamic-web-applications/php-router/contact') ?>">Contact</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/php-router/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/') ?>">Home</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/php-router/about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/about') ?>">About</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/php-router/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/contact') ?>">Contact</a>
                             </div>
                             <div class="py-6">
                                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">Log in</a>
