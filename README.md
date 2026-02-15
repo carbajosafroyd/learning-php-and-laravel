@@ -28,6 +28,8 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 8: Super Global, Current Page, Ternary Operation
 - Day 9: PHP routers
 - Day 10: PDO db connection, Fetching data, Extracting Database class
+- Day 11: Environments and Configuration Flexibility
+
 
 
 ### Laravel
