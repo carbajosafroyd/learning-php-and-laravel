@@ -5,14 +5,15 @@ require 'Database.php';
 // require 'router.php';
 
 $config = require 'config.php'; 
-
-
-
 $db = new Database($config['database']);
-$post = $db->query("select * from post where id = 1")->fetch();
+
+
+$id = $_GET['id'];
+$query = "select * from post where id = ?";
+
+$posts = $db->query($query, [$id])->fetch();
 
 
 
-
-dd($post['title']);
+dd($posts['title']);
 
