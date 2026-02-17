@@ -31,6 +31,9 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 11: Environments and Configuration Flexibility
 - Day 12: SQL injection
 
+### Notes Mini-Project
+- Day 13: Database Tables and Indexes, UK, FK
+
 
 
 ### Laravel
