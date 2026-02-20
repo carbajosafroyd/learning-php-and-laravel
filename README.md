@@ -33,7 +33,7 @@ It contains code examples, small exercises, and notes from my learning process.
 
 ### Notes Mini-Project
 - Day 13: Database Tables and Indexes, UK, FK
-- Day 14: sorry mamen i have other priority today 
+- Day 14: gomenn, i procrastinate again today :(
 
 
 
