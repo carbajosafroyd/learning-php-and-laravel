@@ -34,6 +34,7 @@ It contains code examples, small exercises, and notes from my learning process.
 ### Notes Mini-Project
 - Day 13: Database Tables and Indexes, UK, FK
 - Day 14: gomenn, i procrastinate again today :(
+- i procrastinate again today, i will come back soon 
 
 
 
