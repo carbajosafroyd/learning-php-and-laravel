@@ -22,9 +22,10 @@ function isCurrentPage($path) {
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/php-for-beginners/dynamic-web-applications/php-router/" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/') ?>">Home</a>
-            <a href="/php-for-beginners/dynamic-web-applications/php-router/about" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/about') ?>">About</a>
-            <a href="/php-for-beginners/dynamic-web-applications/php-router/contact" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/contact') ?>">Contact</a>
+            <a href="/php-for-beginners/dynamic-web-applications/database/" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/') ?>">Home</a>
+            <a href="/php-for-beginners/dynamic-web-applications/database/about" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/about') ?>">About</a>
+            <a href="/php-for-beginners/dynamic-web-applications/database/notes" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/notes') ?>">Notes</a>
+            <a href="/php-for-beginners/dynamic-web-applications/database/contact" class="text-sm/6 font-semibold text-white <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/contact') ?>">Contact</a>
 
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -36,7 +37,7 @@ function isCurrentPage($path) {
             <div tabindex="0" class="fixed inset-0 focus:outline-none">
                 <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
                     <div class="flex items-center justify-between">
-                        <a href="#" class="-m-1.5 p-1.5">
+                        <a href="/php-for-beginners/dynamic-web-applications/database/" class="-m-1.5 p-1.5">
                             <span class="sr-only">Your Company</span>
                             <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
                         </a>
@@ -50,9 +51,9 @@ function isCurrentPage($path) {
                     <div class="mt-6 flow-root">
                         <div class="-my-6 divide-y divide-white/10">
                             <div class="space-y-2 py-6">
-                                <a href="/php-for-beginners/dynamic-web-applications/php-router/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/') ?>">Home</a>
-                                <a href="/php-for-beginners/dynamic-web-applications/php-router/about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/about') ?>">About</a>
-                                <a href="/php-for-beginners/dynamic-web-applications/php-router/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/php-router/contact') ?>">Contact</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/database/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/') ?>">Home</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/database/about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/about') ?>">About</a>
+                                <a href="/php-for-beginners/dynamic-web-applications/database/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5 <?= isCurrentPage('/php-for-beginners/dynamic-web-applications/database/contact') ?>">Contact</a>
                             </div>
                             <div class="py-6">
                                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">Log in</a>

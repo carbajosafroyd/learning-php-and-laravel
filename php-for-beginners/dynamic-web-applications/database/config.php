@@ -5,7 +5,7 @@ return  [
 
         'host' => 'localhost',
         'port' => '3306',
-        'dbname' => 'myapp',
+        'dbname' => 'mini-project',
         'charset' => 'utf8mb4',
 
     ],
