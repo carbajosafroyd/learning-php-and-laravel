@@ -35,7 +35,7 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 13: Database Tables and Indexes, UK, FK
 - Day 14: Render the notes (data) from db and create notes page //database file
 - Day 15: Intro to Authorization
-
+- gomen i need to study for our quiz tomorrow
 
 ### Laravel
 - Not started yet
