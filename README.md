@@ -37,6 +37,8 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 15: Intro to Authorization
 - gomen, i got to work with other sub today
 - gomen
+- huhu i will come back soon my beloved php
+
 
 ### Laravel
 - Not started yet
