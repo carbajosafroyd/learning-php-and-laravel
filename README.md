@@ -36,6 +36,7 @@ It contains code examples, small exercises, and notes from my learning process.
 - Day 14: Render the notes (data) from db and create notes page //database file
 - Day 15: Intro to Authorization
 - our comeback is near !
+- our comeback is near !
 
 
 ### Laravel
